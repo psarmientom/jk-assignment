@@ -33,7 +33,8 @@ __This is also a bold sentence__
 ***
 
 ---
-<a href="http://google.com">Google</a>
+
 [Google](http://google.com)
+![dog playing with a ball](images/dog.webp)
 
 
