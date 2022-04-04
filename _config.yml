@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+url: https://psarmientom.github.io/
+baseurl: /jk-assignment/
+title: Test Jekyll site
+description: This is my first Jekyll site
+instagram: "http://intsgram.com/username"
+author: Patricia Sarmiento
