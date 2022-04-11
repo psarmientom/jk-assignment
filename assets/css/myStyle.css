@@ -11,4 +11,5 @@ header.page-header.about{
 }
 li.btn{
     display:flex;
+    list-style: none;
 }
