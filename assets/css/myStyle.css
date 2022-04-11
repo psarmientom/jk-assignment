@@ -9,3 +9,6 @@ h1{
 header.page-header.about{
     padding:0;
 }
+li.btn{
+    display:flex;
+}
