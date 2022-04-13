@@ -5,10 +5,9 @@ $header-bg-color: red;
 
 @import "{{ site.theme }}";
 
-.main-content h1{
+.page-header h1{
     color: black;
 }
-
 .about{
     padding:0;
 }
