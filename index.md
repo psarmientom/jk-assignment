@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Welcome
+description: This is the Home page
+---
 
 
 You can use the [editor on GitHub](https://github.com/psarmientom/jk-assignment/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
