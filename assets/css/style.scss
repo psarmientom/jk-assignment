@@ -2,11 +2,12 @@
 ---
 
 $header-bg-color: red;
-$header-heading-color: #000 !default;
 
 @import "{{ site.theme }}";
 
-
+.page-header h1{
+    color: black;
+}
 .about{
     padding:0;
 }
