@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: Contact us
 description: Our address and hours
 order: 3
