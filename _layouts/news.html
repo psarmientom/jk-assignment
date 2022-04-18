@@ -32,19 +32,23 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      <!-- Create a loop -->
+      {% for block in site.data.news.story %}
       <div class="cards">
         <div class="card">
           <div class="pic">
-            <img src="https://picsum.photos/200/200" alt="">
+            <img src="{{block.image}}" alt="{{block.image-alt}}">
           </div>
           <div class="content">
-           <h3 class="title">This is the title</h3>
-           <h4>Subtitle</h4>
-          <p>This is the content</p>
-          <p><a href="/">This is a link</a></p>
+           <h3 class="title">{{block.title}}</h3>
+           <h4>{{block.subtitle}}</h4>
+          <p>{{block.story-content}}</p>
+          <p><a href="{{block.tag-link}}">{{block.tag}}</a></p>
           </div>
         </div>
       </div>
+      {% endfor %}
+      <!-- End of loop -->
 
       <footer class="site-footer">
         <!-- {% if site.github.is_project_page %}
